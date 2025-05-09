@@ -8,29 +8,24 @@ body, html {
     background-color: rgba(225,227,230,255);
 }
 
-.contenedor{
+.contenedorgeneral {
     width: 750px;
     height: 400px;
-    background-color: rgba(255,255,255,255);
+    background-color: white;
     border-radius: 20px 20px 20px 20px;
     display: flex;
+    flex-direction: row-reverse;
 }
 
-.bienvenida {
+.bienvenidoregistro{
+    width: 350px;
     width: 50%;
-    background-color: #6C8EFF;
+    background-color: rgba(113,149,233,255);
+    border-radius: 110px 20px 20px 110px;
     display: flex;
     justify-content: center;
     flex-direction: column; 
     align-items: center;
-}
-
-.contenedor .bienvenida{
-    width: 350px;
-    height: 400px;
-    background-color: rgba(113,149,233,255);
-    border-radius: 20px 110px 110px 20px;
-
 }
 
 .titulo h2 {
@@ -69,39 +64,31 @@ body, html {
     color: #6C8EFF;
 }
 
-.contenedorlogin{
-    width: 400px;
+.contenidoregistro{
+    width: 50%;
     height: 400px;
-
     display: flex;
     justify-content: center;
     flex-direction: column; 
     align-items: center;
 }
 
-.contenedorlogin h2{
+.contenidoregistro h2{
     margin-bottom: 30px;
     font-size: 34px;
 }
 
-.contenedorlogin input {
+.contenidoregistro input {
     width: 80%;
     height: 40px;
     padding: 10px;
-    margin-bottom: 20px; /* Más espacio entre inputs */
+    margin-bottom: 15px; /* Más espacio entre inputs */
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 35px;
     background-color: #ccc;
 }
 
-.contenedorlogin a{
-    color: rgb(87, 87, 87);
-    font-size: 15px;
-    
-    text-align: center;
-}
-
-.contenedorlogin button{
+.contenidoregistro button{
     width: 80%;
     height: 45px;
     margin-top: 10px;
@@ -113,38 +100,14 @@ body, html {
     cursor: pointer;
 }
 
-.contenedorlogin button:hover{
+.contenidoregistro button:hover{
     background: #3c5fd1 !important;
 }
 
-.contenedorlogin h5{
-    color: rgb(87, 87, 87);
-    font-size: 15px;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 10px;
-}
+input:focus {/*Esto le cambia el color al borde al hacerle click al input*/
+  outline: none;
+  border-color: #3c5fd1 ; /* O cualquier otro color deseado */
+  /* Puedes agregar otros estilos al estado focus, como sombra, etc. */
+  box-shadow: 0 0 10px #3c5fd1 ;
 
-.social-login {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 0px;
-  }
-  
-.social-btn {
-    background-color: white !important;
-    color: #333333 !important;
-    width: 45px;
-    height: 45px;
-    border: 2px solid rgba(239,238,238,255) !important;
-    border-radius: 8px;
-    padding: 10px 15px; 
-    cursor: pointer;
-    font-size: 18px;
-    transition: background 0.3s;
-}
-  
-.social-btn:hover {
-    background: rgba(113,149,233,255)!important;
 }
