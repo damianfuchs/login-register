@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225,227,230,255);
+}
+
+.contenedorregistro {
+    width: 750px;
+    height: 400px;
+    background-color: red;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+}
+
+.contenidoregistro{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(113,149,233,255);
+    border-radius: 20px 110px 110px 20px;
+
+}

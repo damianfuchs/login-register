@@ -1,0 +1,150 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225,227,230,255);
+}
+
+.contenedor{
+    width: 750px;
+    height: 400px;
+    background-color: rgba(255,255,255,255);
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+}
+
+.bienvenida {
+    width: 50%;
+    background-color: #6C8EFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.contenedor .bienvenida{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(113,149,233,255);
+    border-radius: 20px 110px 110px 20px;
+
+}
+
+.titulo h2 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.notenescuenta a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.registrar button{
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+
+}
+
+.registrar button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+ 
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registrar button:hover {
+    background-color: white;
+    color: #6C8EFF;
+}
+
+.contenedorlogin{
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.contenedorlogin h2{
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+
+.contenedorlogin input {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px; /* Más espacio entre inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.contenedorlogin a{
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    
+    text-align: center;
+}
+
+.contenedorlogin button{
+    width: 80%;
+    height: 45px;
+    margin-top: 10px;
+    border: 2px solid white;
+    background-color: #6C8EFF;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contenedorlogin button:hover{
+    background: #3c5fd1 !important;
+}
+
+.contenedorlogin h5{
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-login {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+.social-btn {
+    background-color: white !important;
+    color: #333333 !important;
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgba(239,238,238,255) !important;
+    border-radius: 8px;
+    padding: 10px 15px; 
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+  
+.social-btn:hover {
+    background: rgba(113,149,233,255)!important;
+}
